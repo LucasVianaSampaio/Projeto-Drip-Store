@@ -13,6 +13,7 @@ function ProductViewPage() {
     { src: "../public/produc-image-4.jpeg", alt: "imagem de sapato 4" },
     { src: "../public/produc-image-5.jpeg", alt: "imagem de sapato 5" },
   ];
+  
 
   const products = [
     {
