@@ -76,8 +76,8 @@ function HomePage() {
   return (
     <div className="bg-slate-50">
       <Layout>
-        <div className="flex bg-[#F5F5F5] items-center space-x-32">
-          <div className="w-1/2 ml-10 max-w-md break-words space-y-9">
+        <div className="flex bg-[#F5F5F5] items-center justify-around ">
+          <div className="w-1/2  max-w-md break-words space-y-9">
             <div className="space-y-3">
               <p className="text-[#F6AA1C] font-bold">
                 Melhores ofertas personalizadas
@@ -94,7 +94,7 @@ function HomePage() {
               Ver Ofertas
             </button>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 ">
             <Gallery height={681} width={1440} images={images} />
           </div>
         </div>

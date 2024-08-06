@@ -6,6 +6,7 @@ import ProductOptions from "../../components/ProductOptions";
 import Section from "../../components/Section";
 
 function ProductViewPage() {
+  window.scrollTo(0, 0);
   const image = [
     { src: "../public/produc-image-1.jpeg", alt: "imagem de sapato 1" },
     { src: "../public/produc-image-2.jpeg", alt: "imagem de sapato 2" },
@@ -61,7 +62,7 @@ function ProductViewPage() {
             <BuyBox
               name="Tênis Nike Revolution 6 Next Nature Masculino"
               reference={38416711}
-              stars={4.7}
+              stars="4.7"
               rating={90}
               price="219,00"
               priceDiscount="200,00"

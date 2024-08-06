@@ -129,14 +129,14 @@ function ProductListeningPage() {
   ];
 
   const genderOptions = [
-    { text: "Masculini", value: "opt1" },
+    { text: "Masculino", value: "opt1" },
     { text: "Feminino", value: "opt2" },
     { text: "Unisex", value: "opt3" },
   ];
 
   const statusOptions = [
-    { text: "Masculino", value: "male" },
-    { text: "Feminino", value: "female" },
+    { text: "Novo", value: "new" },
+    { text: "Usado", value: "used" },
   ];
 
   return (
