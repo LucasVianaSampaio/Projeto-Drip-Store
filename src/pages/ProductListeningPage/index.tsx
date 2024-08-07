@@ -1,6 +1,5 @@
-
 import FilterGroup from "../../components/FilterGroup";
-import ProductListening from "../../components/Product_Listining";
+import ProductListening from "../../components/Product_Listening";
 import Section from "../../components/Section";
 import Layout from "../../components/layout";
 

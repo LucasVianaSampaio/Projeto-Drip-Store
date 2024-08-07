@@ -19,7 +19,9 @@ function ProductCard({
         {priceDiscount ? (
           <div className="inline-flex gap-2">
             <p className="text-[#8F8F8F] text-2xl line-through">${price}</p>
-            <p className="text-[#1F1F1F] text-2xl font-bold">${priceDiscount}</p>
+            <p className="text-[#1F1F1F] text-2xl font-bold">
+              ${priceDiscount}
+            </p>
           </div>
         ) : (
           <p className="text-[#474747] text-2xl">${price}</p>

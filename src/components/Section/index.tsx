@@ -15,7 +15,6 @@ interface SectionProps {
 function Section({ link, title, titleAlign, children }: SectionProps) {
   return (
     <div>
-
       <div className="w-full inline-flex justify-between">
         {titleAlign == "center" ? (
           <h2 className="text-[#474747] font-bold text-center">{title}</h2>
@@ -25,9 +24,9 @@ function Section({ link, title, titleAlign, children }: SectionProps) {
         {link && (
           <div className="inline-flex gap-2">
             <Link className="right-0 text-[#C92071]" to={link.href}>
-            {link.text}
-          </Link>
-          <img src="/setaParaADireita.svg" alt="" />
+              {link.text}
+            </Link>
+            <img src="/setaParaADireita.svg" alt="" />
           </div>
         )}
       </div>

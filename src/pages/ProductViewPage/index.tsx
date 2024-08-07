@@ -1,7 +1,7 @@
 import BuyBox from "../../components/BuyBox";
 import Gallery from "../../components/Gallery";
 import Layout from "../../components/layout";
-import ProductListening from "../../components/Product_Listining";
+import ProductListening from "../../components/Product_Listening";
 import ProductOptions from "../../components/ProductOptions";
 import Section from "../../components/Section";
 

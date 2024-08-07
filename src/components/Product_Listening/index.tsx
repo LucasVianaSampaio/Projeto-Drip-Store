@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import ProductCard from "../Product_Card";
 
 interface Product {
-  id: number,
+  id: number;
   image_src: string;
   product_name: string;
   price: number;
@@ -19,12 +19,12 @@ function ProductListening({ productList }: ProductListeningProps) {
       {productList.map((product, index) => (
         <Link to={`/produtos/${product.id}`}>
           <ProductCard
-          key={index}
-          image_src={product.image_src}
-          price={product.price}
-          product_name={product.product_name}
-          priceDiscount={product.priceDiscount}
-        />
+            key={index}
+            image_src={product.image_src}
+            price={product.price}
+            product_name={product.product_name}
+            priceDiscount={product.priceDiscount}
+          />
         </Link>
       ))}
     </div>

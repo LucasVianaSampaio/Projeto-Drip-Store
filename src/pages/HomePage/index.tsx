@@ -1,14 +1,11 @@
-
-
 import Gallery from "../../components/Gallery";
-import ProductListening from "../../components/Product_Listining";
+import ProductListening from "../../components/Product_Listening";
 import Section from "../../components/Section";
 import Layout from "../../components/layout";
 
 function HomePage() {
   window.scrollTo(0, 0);
 
-  
   const images = [
     { src: "/sapatoBranco.png", alt: "sapato branco" },
     { src: "/sapatoBranco.png", alt: "sapato branco" },
@@ -230,7 +227,9 @@ function HomePage() {
                 nisi ut aliquip
               </p>
             </div>
-            <button className="bg-[#C92071] text-white px-14 py-2 rounded-lg font-bold tracking-wide mt-8 hover:bg-[#c92058]">Ver oferta</button>
+            <button className="bg-[#C92071] text-white px-14 py-2 rounded-lg font-bold tracking-wide mt-8 hover:bg-[#c92058]">
+              Ver oferta
+            </button>
           </div>
         </div>
       </Layout>

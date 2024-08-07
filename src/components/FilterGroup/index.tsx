@@ -17,8 +17,14 @@ interface FilterGroupProps {
 
 function FilterGroup({ title, inputType, options }: FilterGroupProps) {
   const [valorSelecionado, setValorSelecionado] = useState("");
-  const handleChange = (event) => {
-    setValorSelecionado(event.target.value);
+  const handleChange = (
+    event:
+      | React.ChangeEvent<HTMLInputElement>
+      | React.SyntheticEvent<Element, Event>
+  ) => {
+    if (event.target instanceof HTMLInputElement) {
+      setValorSelecionado(event.target.value);
+    }
   };
   return (
     <div className="w-full">
