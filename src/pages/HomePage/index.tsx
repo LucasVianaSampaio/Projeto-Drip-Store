@@ -6,6 +6,8 @@ import Section from "../../components/Section";
 import Layout from "../../components/layout";
 
 function HomePage() {
+  window.scrollTo(0, 0);
+
   
   const images = [
     { src: "/sapatoBranco.png", alt: "sapato branco" },

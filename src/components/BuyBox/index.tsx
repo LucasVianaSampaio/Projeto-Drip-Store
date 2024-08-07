@@ -1,7 +1,7 @@
 type BuyBoxProps = {
   name: string;
   reference: number;
-  stars: string;
+  stars: number;
   rating: number;
   price: string;
   priceDiscount?: string;

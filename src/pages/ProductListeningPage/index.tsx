@@ -5,6 +5,7 @@ import Section from "../../components/Section";
 import Layout from "../../components/layout";
 
 function ProductListeningPage() {
+  window.scrollTo(0, 0);
   const productList = [
     {
       id: 9,

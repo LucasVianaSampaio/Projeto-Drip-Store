@@ -14,7 +14,6 @@ function ProductViewPage() {
     { src: "../public/produc-image-4.jpeg", alt: "imagem de sapato 4" },
     { src: "../public/produc-image-5.jpeg", alt: "imagem de sapato 5" },
   ];
-  
 
   const products = [
     {
@@ -22,7 +21,7 @@ function ProductViewPage() {
       product_name: "K-Swiss V8 - Masculino",
       image_src: "../productThumb.png",
       price: 200,
-      priceDiscount: 149.9
+      priceDiscount: 149.9,
     },
     {
       id: 2,
@@ -44,7 +43,7 @@ function ProductViewPage() {
       price: 200,
       priceDiscount: 149.9,
     },
-  ]
+  ];
   return (
     <Layout>
       <div>
@@ -62,7 +61,7 @@ function ProductViewPage() {
             <BuyBox
               name="Tênis Nike Revolution 6 Next Nature Masculino"
               reference={38416711}
-              stars="4.7"
+              stars={4.7}
               rating={90}
               price="219,00"
               priceDiscount="200,00"
@@ -88,9 +87,13 @@ function ProductViewPage() {
         </div>
 
         <div className="mt-16 mx-auto w-full max-w-7xl">
-        <Section title="Produtos Relacionados " titleAlign="left" link={{text: "Ver todos", href: "/produtos"}}>
-          <ProductListening productList={products}/>
-        </Section>
+          <Section
+            title="Produtos Relacionados "
+            titleAlign="left"
+            link={{ text: "Ver todos", href: "/produtos" }}
+          >
+            <ProductListening productList={products} />
+          </Section>
         </div>
       </div>
     </Layout>
