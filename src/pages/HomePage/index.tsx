@@ -208,7 +208,7 @@ function HomePage() {
           </Section>
         </div>
 
-        <div className="flex items-center mt-48">
+        <div className="flex items-center mt-48 mx-auto w-full max-w-7xl">
           <div className="w-1/2">
             <img src="./sapatosJordan.png" alt="Sapatos Jordan" />
           </div>
