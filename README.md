@@ -5,10 +5,10 @@ Projeto Front End realizado no programa de Formação Full Stack - Geração Tec
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias e Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias e bibliotecas">Tecnologias e Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
