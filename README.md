@@ -17,9 +17,7 @@ Projeto Front End realizado no programa de Formação Full Stack - Geração Tec
 
 <br>
 
-<p align="center">
-  <img alt="imagem do projeto" src=".github/preview.jpg" width="100%">
-</p>
+![image](https://github.com/user-attachments/assets/8f5e81e4-3ef6-4639-9a91-3de50153e25d)
 
 ## 🚀 Tecnologias e Bibliotecas
 
