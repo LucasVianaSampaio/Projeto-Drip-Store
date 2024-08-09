@@ -8,11 +8,11 @@ import Section from "../../components/Section";
 function ProductViewPage() {
   window.scrollTo(0, 0);
   const image = [
-    { src: "../../../public/product-image-1.jpeg", alt: "imagem de sapato 1" },
-    { src: "../../../public/product-image-2.jpeg", alt: "imagem de sapato 2" },
-    { src: "../../../public/product-image-3.jpeg", alt: "imagem de sapato 3" },
-    { src: "../../../public/product-image-4.jpeg", alt: "imagem de sapato 4" },
-    { src: "../../../public/product-image-5.jpeg", alt: "imagem de sapato 5" },
+    { src: "/product-image-1.jpeg", alt: "imagem de sapato 1" },
+    { src: "/product-image-2.jpeg", alt: "imagem de sapato 2" },
+    { src: "/product-image-3.jpeg", alt: "imagem de sapato 3" },
+    { src: "/product-image-4.jpeg", alt: "imagem de sapato 4" },
+    { src: "/product-image-5.jpeg", alt: "imagem de sapato 5" },
   ];
 
   const products = [

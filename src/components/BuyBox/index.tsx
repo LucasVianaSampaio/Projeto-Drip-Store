@@ -26,10 +26,10 @@ const BuyBox: React.FC<BuyBoxProps> = ({
         Casual | Nike | Ref:{reference}
       </p>
       <div className="inline-flex gap-3">
-        <img src="../../../public/Stars.svg" alt="total de estrelas" />
+        <img src="/Stars.svg" alt="total de estrelas" />
         <div className="bg-[#F6AA1C] px-4 py-1 rounded inline-flex items-center gap-1">
           <p className="font-black text-white text-sm tracking-wide">{stars}</p>
-          <img className="w-4 h-4" src="../../../public/Star.svg" alt="estrela" />
+          <img className="w-4 h-4" src="/Star.svg" alt="estrela" />
         </div>
         <p className="font-medium	text-[#8F8F8F] tracking-wide	">
           ({rating} avaliações)
