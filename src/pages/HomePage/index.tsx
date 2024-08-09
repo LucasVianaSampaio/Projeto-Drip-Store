@@ -202,7 +202,7 @@ function HomePage() {
           <Section
             title="Produtos em alta"
             titleAlign="left"
-            link={{ text: "Ver todos", href: "#" }}
+            link={{ text: "Ver todos", href: "/produtos" }}
           >
             <ProductListening productList={productList} />
           </Section>
