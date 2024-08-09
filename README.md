@@ -1,11 +1,11 @@
 <h1 align="center"> Drip Store </h1>
 
 <p align="center">
-Projeto Front End realizado no curso de desenvolvimento full-stack<br/>
+Projeto Front End realizado no programa de Formação Full Stack - Geração Tech, oferecido pelo IEL (Instituto Euvaldo Lodi)<br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias e Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -39,7 +39,7 @@ O projeto Drip Store é uma aplicação front-end desenvolvida para proporcionar
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195327109778210238). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/Tk1Wc4vTNMCZDWkIwAQTxC/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30&t=vIHyGJdzkRj6UbII-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📝 Licença
 
