@@ -21,21 +21,21 @@ Projeto Front End realizado no curso de desenvolvimento full-stack<br/>
   <img alt="imagem do projeto" src=".github/preview.jpg" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias e Bibliotecas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias e bibliotecas:
 
 - <a href="https://vitejs.dev/">React (Vite)</a>  
 - <a href="https://reactrouter.com">React Router Dom</a>
-- <a href="https://mui.com/material-ui"/>Material UI</a>
-- Tailwind CSS
-- Swiper
+- <a href="https://mui.com/material-ui">Material UI</a>
+- <a href="https://tailwindcss.com/"> Tailwind CSS</a>
+- <a href="https://swiperjs.com/"> Swiper </a>
 
 ## 💻 Projeto
 
-O Habits é um app para ajudar a registrar os hábitos.
+O projeto Drip Store é uma aplicação front-end desenvolvida para proporcionar uma experiência de compra especializada em vestuário, com foco em sapatos de diversas marcas e tamanhos. O objetivo é atender às preferências e necessidades de todos os clientes, oferecendo uma ampla variedade de opções de calçados.
 
-- [Visite o projeto online](https://lucasvianasampaio.github.io/nlw-setup/)
+- [Visite o projeto online](https://projeto-drip-store.vercel.app)
 
 ## 🔖 Layout
 
